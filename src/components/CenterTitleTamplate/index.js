@@ -1,0 +1,1 @@
+export { CenterTitleTemplate } from './CenterTitleTemplate';

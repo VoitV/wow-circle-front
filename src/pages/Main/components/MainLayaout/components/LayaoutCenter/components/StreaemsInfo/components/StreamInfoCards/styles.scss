@@ -1,0 +1,33 @@
+.streams-info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #dec1b0;
+  font-family: 'Open Sans Regular';
+
+  .stream-info-card {
+    .stream-card-preview {
+      border: 2px solid transparent;
+
+      &:hover {
+        border: 2px solid rgb(249 212 3 / 67.2%);
+        border-radius: 2px;
+        cursor: pointer;
+      }
+    }
+
+    .stream-card-info {
+      display: flex;
+      justify-content: center;
+
+      span {
+        margin-left: 5px;
+
+        svg {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

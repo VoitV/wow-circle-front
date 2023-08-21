@@ -1,0 +1,16 @@
+.current-position-container {
+  z-index: 2;
+  height: 30px;
+  padding-left: 10px;
+  background: #4a120e;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
+  color: #ca8984;
+  font-size: 12px;
+
+  .current-position {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 14px;
+  }
+}

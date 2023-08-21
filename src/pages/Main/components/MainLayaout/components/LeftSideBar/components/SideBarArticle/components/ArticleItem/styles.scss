@@ -1,0 +1,39 @@
+.article-item {
+  padding: 25px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background: url('https://wowcircle.net/themes/wowcircle/images/bg/block_texture.png') top center;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .item-header {
+    overflow: hidden;
+    color: #f2e2c8;
+    font-family: 'Beaufort Regular';
+    font-size: 16px;
+    text-overflow: ellipsis;
+    text-shadow: 0 1px 1px #000;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .item-text {
+    overflow: hidden;
+    height: 44px;
+    margin-top: 13px;
+    color: #ae9079;
+    font-family: 'Open Sans Regular';
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .item-date {
+    margin-top: 10px;
+    color: #6b5f53;
+    font-family: 'Open Sans Regular';
+    font-size: 14px;
+  }
+}

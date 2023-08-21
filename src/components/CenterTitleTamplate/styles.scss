@@ -1,0 +1,52 @@
+.info-title {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+
+  img {
+    width: 61px;
+    height: 63px;
+  }
+
+  .info-text {
+    margin-right: auto;
+    margin-left: 20px;
+    color: #f2e2c8;
+    font-family: Beaufort Medium;
+    font-size: 30px;
+
+    h1 {
+      margin: 0;
+      color: #f2e2c8;
+      font-size: 30px;
+    }
+
+    div {
+      display: block;
+      color: #a78c77;
+      font-family: 'Open Sans Regular';
+      font-size: 14px;
+    }
+  }
+}
+
+.info-more-btn {
+  display: flex;
+  width: 200px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: url('https://wowcircle.net/themes/wowcircle/images/yellow_button_texture.png') top
+    center repeat;
+  color: #21120f;
+  font-family: Beaufort Medium;
+  font-size: 17px;
+  text-shadow: 0 1px 1px #ffa249;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

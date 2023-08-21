@@ -1,0 +1,49 @@
+.login {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  max-height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  .login-footer {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #dec1b0;
+    font-family: 'Beaufort Regular';
+    opacity: 0.2;
+  }
+
+  .login-content-container {
+    position: relative;
+    z-index: 1;
+    width: 606px;
+    height: fit-content;
+  }
+
+  .logo-nav {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .bg-image {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    min-width: 606px;
+    max-width: 1920px;
+    height: 100vh;
+    min-height: 660px;
+    background-image: url('https://cp.wowcircle.net/assets/images/bg/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

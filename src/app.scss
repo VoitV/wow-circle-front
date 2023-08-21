@@ -1,4 +1,7 @@
-.app {
-  display: flex;
-  border: 1px solid;
+body {
+  background: #0e0302;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }

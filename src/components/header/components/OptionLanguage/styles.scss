@@ -1,0 +1,29 @@
+.option-language {
+  margin-left: 8px;
+  color: #68513e;
+  font-family: 'Beaufort Regular';
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: orange;
+    cursor: pointer;
+  }
+
+  .lg-item {
+    display: flex;
+    align-items: center;
+
+    .lg-icon {
+      img {
+        width: 27px;
+        height: 27px;
+      }
+    }
+
+    .lg-name {
+      margin-left: 10px;
+    }
+  }
+}

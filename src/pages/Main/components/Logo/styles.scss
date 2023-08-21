@@ -1,0 +1,54 @@
+.logo-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-right: 5%;
+
+  .logo-content {
+    .logo-img {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .players-online {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 14px;
+      text-transform: uppercase;
+
+      .text-header {
+        color: #dec1b0;
+        font-family: Beaufort Medium;
+        font-size: 20px;
+        text-align: center;
+        text-shadow: 0 1px 1px #000;
+      }
+
+      .online-count {
+        width: 100%;
+        margin-top: -10px;
+        color: #ff9c08;
+        font-family: Beaufort Bold;
+        font-size: 58px;
+        font-weight: bolder;
+        text-align: center;
+        text-shadow: 0 1px 1px #000;
+      }
+
+      .server-status {
+        display: block;
+        margin: 0 auto;
+        margin-top: -4px;
+        color: #ffe4b5;
+        font-family: Beaufort Medium;
+        font-size: 14px;
+        text-decoration: underline;
+        text-shadow: 0 1px 1px #673817;
+        transition: color 0.2s ease-in-out;
+      }
+    }
+  }
+}

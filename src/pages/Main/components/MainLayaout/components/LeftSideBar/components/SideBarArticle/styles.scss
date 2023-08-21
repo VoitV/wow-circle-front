@@ -1,0 +1,27 @@
+.side-bar-article {
+  margin-top: 35px;
+
+  .article-header {
+    width: 100%;
+    margin-bottom: 5px;
+    color: #f2e2c8;
+    font-family: 'Beaufort Regular';
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 0 1px 1px #000;
+    text-transform: uppercase;
+  }
+
+  .read-more {
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: url('https://wowcircle.net/themes/wowcircle/images/bg/block_texture.png') top center;
+    color: #ae9079;
+    font-family: Beaufort Medium;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+}

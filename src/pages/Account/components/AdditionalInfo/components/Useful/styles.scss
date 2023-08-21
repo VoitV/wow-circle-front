@@ -1,0 +1,32 @@
+.useful {
+  .useful-title {
+    width: 100%;
+    padding: 10px;
+    color: #e9620a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  .useful-info {
+    .useful-info-item {
+      width: 100%;
+      padding: 8px 10px;
+      border-bottom: 1px solid #271b18;
+      color: #ab8e89;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        color: #ff9208;
+        cursor: pointer;
+      }
+
+      svg {
+        width: 12px;
+        margin-right: 10px;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.resource-btn {
+  height: 44px;
+  padding: 14px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background: url('https://wowcircle.net/themes/wowcircle/images/button_texture.png') top center
+    no-repeat;
+  color: #dec1b0;
+  font-family: 'Beaufort Regular';
+  font-size: 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #000;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: #fffefd;
+    cursor: pointer;
+  }
+}

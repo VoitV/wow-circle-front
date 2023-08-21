@@ -1,0 +1,28 @@
+.login-header {
+  display: flex;
+  justify-content: space-between;
+
+  .lang-option {
+    img {
+      width: 27px;
+      height: 27px;
+      margin-left: 5px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .nav-home {
+    svg {
+      margin-right: 5px;
+    }
+
+    color: #ffe0c5;
+    font-family: Beaufort Medium;
+    font-size: 18px;
+    text-shadow: 0 0 10px #000, 0 0 5px #000;
+    transition: all 0.2s ease-in-out;
+  }
+}

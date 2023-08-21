@@ -1,0 +1,11 @@
+.news-info {
+  .info-title {
+    padding-bottom: 20px;
+  }
+
+  .news-info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,38 @@
+.navigation {
+  width: 215px;
+  height: fit-content;
+
+  .title {
+    width: 100%;
+    padding: 10px;
+    color: #e9620a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  .navigation-button {
+    svg {
+      height: 12px;
+      margin-right: 10px;
+    }
+
+    width: 100%;
+    padding: 8px 10px;
+    border-bottom: 1px solid #271b18;
+    color: #ab8e89;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: #e98c0a;
+      cursor: pointer;
+    }
+  }
+
+  .paymant {
+    svg {
+      transform: rotate(45deg);
+    }
+  }
+}

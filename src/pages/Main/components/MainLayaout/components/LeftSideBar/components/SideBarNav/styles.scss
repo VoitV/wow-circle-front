@@ -1,0 +1,37 @@
+.nav-sidebar {
+  position: relative;
+  height: fit-content;
+
+  .bg-image-aside {
+    position: absolute;
+    width: 100%;
+    height: 703px;
+    background-image: url('https://wowcircle.net/themes/wowcircle/images/bg/nav_bg.png');
+    background-repeat: no-repeat;
+  }
+
+  ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+
+    li {
+      z-index: 1;
+      width: 100%;
+      height: 46.5px;
+      margin: 1px 0;
+      color: #ae9079;
+      font-family: 'Beaufort Regular';
+      font-size: 18px;
+      text-align: center;
+      text-shadow: 0 0 10px rgb(255 119 0 / 20%);
+      text-transform: uppercase;
+      transition: all 0.2s ease-in-out;
+
+      &:first-child {
+        margin-top: 100px;
+      }
+    }
+  }
+}

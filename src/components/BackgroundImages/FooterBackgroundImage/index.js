@@ -1,0 +1,1 @@
+export { FooterBackgroundImage } from './FooterBackgroundImage';
