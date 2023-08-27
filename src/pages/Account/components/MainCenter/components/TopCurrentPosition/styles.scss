@@ -1,0 +1,61 @@
+.top-current-position {
+  display: flex;
+  height: 38px;
+
+  .dilatation-btn {
+    width: 10px;
+    margin-top: 2px;
+
+    img {
+      padding: 2px;
+    }
+
+    &.left {
+      padding-right: 0;
+    }
+
+    &.right {
+      padding-right: 15px;
+      padding-left: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .current-position-center {
+    width: 100%;
+    border-bottom: 1px solid #332521;
+    margin: 0 10px;
+    margin-top: 2px;
+
+    .management {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      width: fit-content;
+      height: 100%;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 0 10px;
+      border-radius: 2px;
+      border-top: 1px solid #e9620a;
+      border-right: 1px solid #332521;
+      border-left: 1px solid #332521;
+      margin-right: 5px;
+      background: rgb(50 35 31 / 0%);
+      color: #ab8e89;
+      font-family: sans-serif;
+      font-size: 12px;
+      transition: all 0.2s ease-in-out;
+      white-space: nowrap;
+
+      &:hover {
+        background: rgb(86 57 51 / 84%);
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+}

@@ -2,6 +2,10 @@
   width: 215px;
   height: fit-content;
 
+  &.hide {
+    display: none;
+  }
+
   .title {
     width: 100%;
     padding: 10px;
@@ -27,6 +31,10 @@
     &:hover {
       color: #e98c0a;
       cursor: pointer;
+    }
+
+    &.active {
+      color: orange;
     }
   }
 

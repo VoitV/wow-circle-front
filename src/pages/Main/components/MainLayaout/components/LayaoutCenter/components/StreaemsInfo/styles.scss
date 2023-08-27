@@ -1,5 +1,12 @@
 .streams-info {
-  margin-top: 42px;
+  margin-top: 14px;
+
+  @media screen and (min-width: 410px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 48px;
+  }
 
   hr {
     margin-top: 46px;

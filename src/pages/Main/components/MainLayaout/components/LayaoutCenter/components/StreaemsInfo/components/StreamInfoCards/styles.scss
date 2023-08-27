@@ -1,10 +1,17 @@
 .streams-info-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: 20px;
   color: #dec1b0;
   font-family: 'Open Sans Regular';
+
+  @media screen and (min-width: 410px) {
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    justify-content: space-evenly;
+  }
 
   .stream-info-card {
     .stream-card-preview {

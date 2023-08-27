@@ -1,28 +1,60 @@
 .social {
   display: flex;
 
-  .social-item {
-    width: 37px;
-    height: 37px;
-    margin: 0 10px;
+  .burger {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+
+    .burger-line {
+      width: 100%;
+      height: 3px;
+      border-radius: 5px;
+      background: #6e3029;
+    }
 
     &:hover {
       cursor: pointer;
     }
+  }
 
-    &.vk {
-      background-image: url('https://wowcircle.net/themes/wowcircle/images/icon/vk.png');
-      background-repeat: no-repeat;
+  .social-list {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
     }
 
-    &.ds {
-      background-image: url('https://wowcircle.net/themes/wowcircle/images/icon/dc.png');
-      background-repeat: no-repeat;
-    }
+    .social-item {
+      width: 37px;
+      height: 37px;
+      margin: 0 10px;
 
-    &.yt {
-      background-image: url('https://wowcircle.net/themes/wowcircle/images/icon/yt.png');
-      background-repeat: no-repeat;
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.vk {
+        background-image: url('https://wowcircle.net/themes/wowcircle/images/icon/vk.png');
+        background-repeat: no-repeat;
+      }
+
+      &.ds {
+        background-image: url('https://wowcircle.net/themes/wowcircle/images/icon/dc.png');
+        background-repeat: no-repeat;
+      }
+
+      &.yt {
+        background-image: url('https://wowcircle.net/themes/wowcircle/images/icon/yt.png');
+        background-repeat: no-repeat;
+      }
     }
   }
 }

@@ -2,14 +2,38 @@
   .top-img {
     overflow: hidden;
     height: 30px;
+
+    img {
+      width: 100%;
+    }
   }
 
   width: fit-content;
-  width: 73%;
+  width: 70%;
+  width: 100%;
   height: fit-content !important;
   height: 1000px;
-  margin-top: 80px;
+  margin-top: 20px;
   background: #170604;
+
+  @media screen and (min-width: 410px) {
+  }
+
+  @media screen and (min-width: 746px) {
+    width: 100%;
+    margin-top: 80px;
+  }
+  @media screen and (min-width: 1100px) {
+    width: 60%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 60%;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 70%;
+  }
 
   .layaout-center-content-container {
     .layaout-center-content {

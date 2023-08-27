@@ -3,8 +3,8 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import './styles.scss';
 import { NavLink } from 'react-router-dom';
 
-export const LoginHeader = () => (
-  <div className="login-header">
+export const RegistrationHeader = () => (
+  <div className="registration-header">
     <NavLink to="/" className="nav-home">
       <FontAwesomeIcon icon={faHouse} />
       На сайт

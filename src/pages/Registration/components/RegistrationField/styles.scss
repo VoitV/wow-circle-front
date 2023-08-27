@@ -1,0 +1,85 @@
+.registration-field {
+  flex-direction: column;
+  @media screen and (min-width: 400px) {
+    width: 303px;
+    height: fit-content;
+    padding: 15px;
+    border: 5px solid #2d1b1a84;
+    border-radius: 10px;
+    background-color: #200e0c;
+    background-image: none;
+  }
+
+  @media screen and (min-width: 648px) {
+    position: relative;
+    display: flex;
+    width: 606px;
+    height: 371px;
+    justify-content: space-between;
+    padding: 46px;
+    background-image: url('https://cp.wowcircle.net/assets/images/bg/login_wnd_bg.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .text-header {
+    margin-bottom: 15px;
+    color: #af8a71;
+    text-decoration: underline;
+  }
+
+  .inputs-container {
+    width: 100%;
+    margin-right: 20px;
+
+    .submit-button-container {
+      display: flex;
+      justify-content: center;
+
+      .submit-button {
+        display: flex;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        border: 2px solid rgb(126 82 2);
+        border-radius: 3px;
+        margin-top: 15px;
+        background: orange;
+        color: #2b2018;
+        font-family: Beaufort Medium;
+        font-size: 18px;
+        text-decoration: none;
+        text-shadow: 0 1px 1px #ffae72;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .input-get {
+    width: 100%;
+    height: 36px;
+    padding: 0 15px;
+    border: 1px solid rgb(182 164 139 / 15%);
+    border-radius: 3px;
+    margin-top: 10px;
+    background: rgb(0 0 0 / 15%);
+    color: #af8a71;
+    font-size: 14px;
+  }
+
+  .inp-cont {
+    margin-top: 8px;
+  }
+
+  .input-text {
+    width: 100%;
+    color: #af8a71;
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+    text-align: left;
+  }
+}

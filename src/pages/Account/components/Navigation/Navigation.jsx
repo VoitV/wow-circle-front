@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGear,
@@ -18,7 +20,7 @@ import './styles.scss';
 
 const navigationList = [
   {
-    className: 'managment',
+    className: 'management',
     text: 'Управління',
     svg: faGear,
   },
@@ -114,14 +116,31 @@ const navigationList = [
   },
 ];
 
-export const Navigation = () => (
-  <div className="navigation">
-    <div className="title">Навігація</div>
-    {navigationList.map((el) => (
-      <div className={`${el.className} navigation-button`}>
-        <FontAwesomeIcon icon={el.svg} />
-        {el.text}
-      </div>
-    ))}
-  </div>
-);
+export const Navigation = ({ isNavigationHide, setSelectedNavigation, selectedNavigation }) => {
+  const classNameMain = isNavigationHide ? 'navigation' : 'navigation hide';
+
+  const onHandleSelect = (e) => {
+    const navigationType = e.target.className.split(' ')[0];
+    setSelectedNavigation(navigationType);
+  };
+
+  return (
+    <div className={classNameMain}>
+      <div className="title">Навігація</div>
+      {navigationList.map((el) => (
+        <div
+          key={el.className}
+          className={
+            selectedNavigation === el.className
+              ? `${el.className} navigation-button active`
+              : `${el.className} navigation-button`
+          }
+          onClick={onHandleSelect}
+        >
+          <FontAwesomeIcon icon={el.svg} />
+          {el.text}
+        </div>
+      ))}
+    </div>
+  );
+};

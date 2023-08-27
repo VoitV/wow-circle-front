@@ -4,8 +4,18 @@
   margin: 0 15px;
 
   img {
-    width: 61px;
-    height: 63px;
+    width: 35;
+    height: 35px;
+
+    @media screen and (min-width: 410px) {
+      width: 35px;
+      height: 35px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 61px;
+      height: 63px;
+    }
   }
 
   .info-text {
@@ -19,10 +29,19 @@
       margin: 0;
       color: #f2e2c8;
       font-size: 30px;
+
+      @media screen and (min-width: 410px) {
+        font-size: 19px;
+      }
+
+      @media screen and (min-width: 768px) {
+        font-size: 30px;
+      }
     }
 
     div {
       display: block;
+      margin-top: 5px;
       color: #a78c77;
       font-family: 'Open Sans Regular';
       font-size: 14px;
@@ -37,16 +56,26 @@
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+  margin-left: 10px;
   background: url('https://wowcircle.net/themes/wowcircle/images/yellow_button_texture.png') top
     center repeat;
   color: #21120f;
   font-family: Beaufort Medium;
   font-size: 17px;
+  text-align: center;
   text-shadow: 0 1px 1px #ffa249;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
 
   &:hover {
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 410px) {
+    font-size: 13px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 17px;
   }
 }

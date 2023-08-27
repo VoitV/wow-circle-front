@@ -5,7 +5,7 @@
   width: 100%;
   min-width: 606px;
   max-width: 1920px;
-  height: 100vh;
+  min-height: 100vh;
   min-height: 660px;
   background-image: url('https://cp.wowcircle.net/assets/images/bg/bg.jpg');
   background-repeat: no-repeat;
@@ -27,6 +27,10 @@
       height: 118px;
       margin: 50px auto 0;
       background-image: url('https://cp.wowcircle.net/assets/images/logo/logo.png');
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 

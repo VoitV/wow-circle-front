@@ -1,4 +1,4 @@
-.login {
+.registration {
   position: relative;
   display: flex;
   overflow: hidden;
@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
 
-  .login-footer {
+  .registration-footer {
     position: relative;
     z-index: 1;
     display: flex;
@@ -18,7 +18,7 @@
     opacity: 0.2;
   }
 
-  .login-content-container {
+  .registration-content-container {
     position: relative;
     z-index: 1;
     width: 606px;
